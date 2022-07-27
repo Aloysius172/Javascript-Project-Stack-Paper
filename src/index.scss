@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(165, 230, 165);
+}
+.div_title {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+}
+
+.game_board {
+  display: flex;
+  justify-content: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+
+// #title {
+//   background-color: green;
+//   color: black;
+//   font-size: large;
+//   font-weight: 200;
+//   font-family: 'Courier New', Courier, monospace;
+//   align-self: stretch;
+// }
+// body {
+//   background-color: rgb(147, 180, 147);
+//   color: green;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+// };
+
+
+// #canvas {
+//   border: 5px solid;
+//   border-color: orange;
+//   z-index: -1;
+// };
+
+// #canvas {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// };
+
+
+
