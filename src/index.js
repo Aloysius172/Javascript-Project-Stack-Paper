@@ -4,8 +4,8 @@ import { Game } from "./scripts/game.js"
 
 const canvas = document.getElementById("canvas");
 
-canvas.width = 800
-canvas.height = 800
+canvas.width = 850
+canvas.height = 700
 
 
 

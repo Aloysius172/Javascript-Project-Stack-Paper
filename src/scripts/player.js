@@ -4,18 +4,19 @@ export class Player {
     this.canv = canv;
     this.ctx = this.canv.getContext('2d')
     const img = new Image();
-    img.src = "./img/abcatch.png"
+    img.src = "./img/dhopcatch.png"
 
     img.onload = () => {
-      const scale = 0.2
+      const scale = 0.175
       this.img = img
       this.width = img.width * scale
       this.height = img.height * scale
       // console.log(this.canv.width)
       this.pos = {
         x: this.canv.width / 2 - this.width / 2,
-        y: this.canv.height - this.height - 60
+        y: this.canv.height - this.height - 20
       }
+      this.ctx.drawImage(this.img, this.pos.x, this.pos.y, this.width, this.height)
     }
     this.vel = {
       x: 0,
@@ -24,13 +25,13 @@ export class Player {
 
   }
 
-  drawCharacter() {
-    this.ctx.drawImage(this.img, this.pos.x, this.pos.y, this.width, this.height)
-  }
+  // drawCharacter() {
+  //   this.ctx.drawImage(this.img, this.pos.x, this.pos.y, this.width, this.height)
+  // }
 
   updateCharacter() {
     if (this.img) {
-      this.drawCharacter()
+      this.ctx.drawImage(this.img, this.pos.x, this.pos.y, this.width, this.height)
       this.pos.x += this.vel.x
     }
   }
