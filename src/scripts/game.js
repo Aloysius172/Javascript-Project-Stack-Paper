@@ -84,7 +84,7 @@ export class Game {
       
       
       this.player.animatePlayer()
-      // this.makeBalls()
+      this.makeBalls()
   }
 }
 
