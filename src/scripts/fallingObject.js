@@ -1,7 +1,7 @@
 
 
 
-
+const canv = document.getElementById("canvas")
 
 export class FallingObject {
   constructor(canv) {

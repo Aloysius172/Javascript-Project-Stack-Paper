@@ -69,7 +69,7 @@ export class Game {
         const football = new Ball(canv)
         allBalls.push(football)
         createBall(allBalls[i])
-        allBalls.slice(i, 1)
+        allBalls.splice(i, 1)
         console.log(allBalls)
         ballcounter += i
         // console.log(ballcounter)
@@ -84,7 +84,7 @@ export class Game {
       
       
       this.player.animatePlayer()
-      this.makeBalls(canv)
+      // this.makeBalls()
   }
 }
 

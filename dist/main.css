@@ -29,3 +29,7 @@ body {
   flex-direction: column;
   padding-left: 50px;
 }
+
+.github-img {
+  height: 70px;
+}

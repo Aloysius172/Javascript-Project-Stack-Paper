@@ -10,6 +10,8 @@ canvas.height = 700
 
 
 const game = new Game(canvas)
+document.addEventListener("DOMContentLoaded", () =>{
+  game.gameStart(canvas)
+})
 
-game.gameStart(canvas)
 

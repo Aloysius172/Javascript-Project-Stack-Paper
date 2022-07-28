@@ -37,7 +37,7 @@ export class Player {
   }
 
   animatePlayer() {
-    console.log("animating player")
+    // console.log("animating player")
     requestAnimationFrame(this.animatePlayer.bind(this))
     this.ctx.fillRect(0, 0, this.canv.width, this.canv.height)
     this.updateCharacter()
